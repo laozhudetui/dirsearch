@@ -1,5 +1,5 @@
 
-FROM python:3-alpine
+FROM python:3.12.0a1-alpine
 LABEL maintainer="maurosoria@protonmail.com"
 RUN apk add --no-cache --virtual .depends git
 RUN git clone https://github.com/maurosoria/dirsearch.git
